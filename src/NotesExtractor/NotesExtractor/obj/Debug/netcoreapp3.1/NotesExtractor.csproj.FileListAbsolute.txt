@@ -11,3 +11,16 @@ C:\Users\User\source\repos\NotesExtractor\NotesExtractor\obj\Debug\netcoreapp3.1
 C:\Users\User\source\repos\NotesExtractor\NotesExtractor\obj\Debug\netcoreapp3.1\NotesExtractor.dll
 C:\Users\User\source\repos\NotesExtractor\NotesExtractor\obj\Debug\netcoreapp3.1\NotesExtractor.pdb
 C:\Users\User\source\repos\NotesExtractor\NotesExtractor\obj\Debug\netcoreapp3.1\NotesExtractor.genruntimeconfig.cache
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\bin\Debug\netcoreapp3.1\NotesExtractor.exe
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\bin\Debug\netcoreapp3.1\NotesExtractor.deps.json
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\bin\Debug\netcoreapp3.1\NotesExtractor.runtimeconfig.json
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\bin\Debug\netcoreapp3.1\NotesExtractor.runtimeconfig.dev.json
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\bin\Debug\netcoreapp3.1\NotesExtractor.dll
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\bin\Debug\netcoreapp3.1\NotesExtractor.pdb
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\obj\Debug\netcoreapp3.1\NotesExtractor.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\obj\Debug\netcoreapp3.1\NotesExtractor.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\obj\Debug\netcoreapp3.1\NotesExtractor.AssemblyInfo.cs
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\obj\Debug\netcoreapp3.1\NotesExtractor.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\obj\Debug\netcoreapp3.1\NotesExtractor.dll
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\obj\Debug\netcoreapp3.1\NotesExtractor.pdb
+C:\Users\User\source\repos\SoftUni-Internal-Helpers\src\NotesExtractor\NotesExtractor\obj\Debug\netcoreapp3.1\NotesExtractor.genruntimeconfig.cache

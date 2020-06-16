@@ -15,11 +15,11 @@
             var pptxName = Console.ReadLine();
 
             File.Copy(
-                $"./{pptxName}.pptx",
-                $"./{pptxName}.zip");
+                $"{path}{pptxName}.pptx",
+                $"{path}{pptxName}.zip");
 
             ZipFile.ExtractToDirectory(
-                $"./{pptxName}.zip",
+                $"{path}{pptxName}.zip",
                 $"{pptxName}");
 
             var notesSlidesPath = $"{path}{pptxName}/ppt/notesSlides";
@@ -27,14 +27,9 @@
             var notesSlides = Directory.GetFiles(
                     notesSlidesPath,
                     "*.xml")
-                .OrderBy(s =>
-                {
-                    var number = int.Parse(string.Join(
-                        string.Empty,
-                        s.Where(char.IsDigit)));
-
-                    return number;
-                })
+                .OrderBy(s => int.Parse(string.Join(
+                    string.Empty,
+                    s.Where(char.IsDigit))))
                 .ToList();
 
             var fullScript = new StringBuilder();
@@ -59,7 +54,7 @@
             }
 
             File.WriteAllText(
-                "./full-script.txt",
+                $"{path}full-script.txt",
                 fullScript.ToString().TrimEnd());
 
             Directory.Delete(path + pptxName, true);
