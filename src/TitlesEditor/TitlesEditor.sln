@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitlesEditor", "TitlesEditor\TitlesEditor.csproj", "{3745DC9A-3DE2-4ADE-81A9-2E171BC8DBDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3745DC9A-3DE2-4ADE-81A9-2E171BC8DBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3745DC9A-3DE2-4ADE-81A9-2E171BC8DBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3745DC9A-3DE2-4ADE-81A9-2E171BC8DBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3745DC9A-3DE2-4ADE-81A9-2E171BC8DBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EF573F4-543F-49C5-BC07-690E9DC307AE}
+	EndGlobalSection
+EndGlobal

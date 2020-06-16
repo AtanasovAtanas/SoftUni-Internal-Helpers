@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\bin\Debug\netcoreapp3.1\TitlesEditor.exe
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\bin\Debug\netcoreapp3.1\TitlesEditor.deps.json
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\bin\Debug\netcoreapp3.1\TitlesEditor.runtimeconfig.json
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\bin\Debug\netcoreapp3.1\TitlesEditor.runtimeconfig.dev.json
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\bin\Debug\netcoreapp3.1\TitlesEditor.dll
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\bin\Debug\netcoreapp3.1\TitlesEditor.pdb
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\obj\Debug\netcoreapp3.1\TitlesEditor.csprojAssemblyReference.cache
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\obj\Debug\netcoreapp3.1\TitlesEditor.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\obj\Debug\netcoreapp3.1\TitlesEditor.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\obj\Debug\netcoreapp3.1\TitlesEditor.AssemblyInfo.cs
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\obj\Debug\netcoreapp3.1\TitlesEditor.dll
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\obj\Debug\netcoreapp3.1\TitlesEditor.pdb
+C:\Users\User\source\repos\TitlesEditor\TitlesEditor\obj\Debug\netcoreapp3.1\TitlesEditor.genruntimeconfig.cache

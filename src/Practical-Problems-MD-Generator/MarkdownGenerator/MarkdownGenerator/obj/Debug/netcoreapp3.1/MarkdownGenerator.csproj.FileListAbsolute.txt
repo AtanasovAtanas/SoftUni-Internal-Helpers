@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\MarkdownGenerator\MarkdownGenerator\obj\Debug\netcoreapp3.1\MarkdownGenerator.csprojAssemblyReference.cache
+C:\Users\User\source\repos\MarkdownGenerator\MarkdownGenerator\obj\Debug\netcoreapp3.1\MarkdownGenerator.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\MarkdownGenerator\MarkdownGenerator\obj\Debug\netcoreapp3.1\MarkdownGenerator.AssemblyInfo.cs
+C:\Users\User\source\repos\MarkdownGenerator\MarkdownGenerator\bin\Debug\netcoreapp3.1\MarkdownGenerator.exe
+C:\Users\User\source\repos\MarkdownGenerator\MarkdownGenerator\bin\Debug\netcoreapp3.1\MarkdownGenerator.deps.json
+C:\Users\User\source\repos\MarkdownGenerator\MarkdownGenerator\bin\Debug\netcoreapp3.1\MarkdownGenerator.runtimeconfig.json
+C:\Users\User\source\repos\MarkdownGenerator\MarkdownGenerator\bin\Debug\netcoreapp3.1\MarkdownGenerator.runtimeconfig.dev.json
+C:\Users\User\source\repos\MarkdownGenerator\MarkdownGenerator\bin\Debug\netcoreapp3.1\MarkdownGenerator.dll
+C:\Users\User\source\repos\MarkdownGenerator\MarkdownGenerator\bin\Debug\netcoreapp3.1\MarkdownGenerator.pdb
+C:\Users\User\source\repos\MarkdownGenerator\MarkdownGenerator\obj\Debug\netcoreapp3.1\MarkdownGenerator.dll
+C:\Users\User\source\repos\MarkdownGenerator\MarkdownGenerator\obj\Debug\netcoreapp3.1\MarkdownGenerator.pdb

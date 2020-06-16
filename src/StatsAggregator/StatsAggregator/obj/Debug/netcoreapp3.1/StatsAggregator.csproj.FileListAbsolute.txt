@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\bin\Debug\netcoreapp3.1\StatsAggregator.exe
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\obj\Debug\netcoreapp3.1\StatsAggregator.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\obj\Debug\netcoreapp3.1\StatsAggregator.AssemblyInfo.cs
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\bin\Debug\netcoreapp3.1\StatsAggregator.deps.json
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\bin\Debug\netcoreapp3.1\StatsAggregator.runtimeconfig.json
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\bin\Debug\netcoreapp3.1\StatsAggregator.runtimeconfig.dev.json
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\bin\Debug\netcoreapp3.1\StatsAggregator.dll
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\bin\Debug\netcoreapp3.1\StatsAggregator.pdb
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\obj\Debug\netcoreapp3.1\StatsAggregator.dll
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\obj\Debug\netcoreapp3.1\StatsAggregator.pdb
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\bin\Debug\netcoreapp3.1\EPPlus.dll
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\obj\Debug\netcoreapp3.1\StatsAggregator.csproj.CopyComplete
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\bin\Debug\netcoreapp3.1\MoreLinq.dll
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\obj\Debug\netcoreapp3.1\StatsAggregator.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\obj\Debug\netcoreapp3.1\StatsAggregator.genruntimeconfig.cache
+C:\Users\User\source\repos\StatsAggregator\StatsAggregator\obj\Debug\netcoreapp3.1\StatsAggregator.csprojAssemblyReference.cache

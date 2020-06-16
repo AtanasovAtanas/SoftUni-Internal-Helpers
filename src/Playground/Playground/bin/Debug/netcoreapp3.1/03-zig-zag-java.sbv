@@ -1,0 +1,203 @@
+0:00:00.510,0:00:02.280
+Let's see this problem here.
+
+0:00:02.280,0:00:03.340
+It's called "Zig-Zag".
+
+0:00:03.340,0:00:07.170
+The description says we have to write a program
+which creates 2 arrays.
+
+0:00:07.170,0:00:09.470
+We will be given an integer n.
+
+0:00:09.470,0:00:12.060
+On the next n lines we get 2 integers.
+
+0:00:12.060,0:00:16.420
+And we have to form 2 arrays as shown below.
+
+0:00:16.420,0:00:19.470
+Here in the examples we can see what's expected.
+
+0:00:19.470,0:00:21.090
+We have 80 here.
+
+0:00:21.090,0:00:22.920
+And 80 here again.
+
+0:00:22.920,0:00:25.650
+19 here and there.
+
+0:00:25.650,0:00:30.119
+23 up here and 23 down here.
+
+0:00:30.119,0:00:32.369
+And 31.
+
+0:00:32.369,0:00:36.860
+I'll copy this information that will serve
+as hints.
+
+0:00:36.860,0:00:38.789
+Okay, we paste.
+
+0:00:38.789,0:00:42.659
+Let me delete this new here.
+
+0:00:42.659,0:00:47.370
+We will be receiving input that we have to
+read so we need "Scanner".
+
+0:00:47.370,0:00:48.909
+You know the syntax.
+
+0:00:48.909,0:00:51.879
+And the first thing we read is the "length".
+
+0:00:51.879,0:00:58.209
+It is a whole number so we have to parse it.
+
+0:00:58.209,0:01:01.749
+Okay.
+
+0:01:01.749,0:01:03.549
+We need two arrays.
+
+0:01:03.549,0:01:08.370
+And we are not going to do any calculations
+with the elements.
+
+0:01:08.370,0:01:11.390
+This is why the elements can be Strings and
+not integers.
+
+0:01:11.390,0:01:20.510
+So, we create the "first" array.
+
+0:01:20.510,0:01:21.780
+Okay.
+
+0:01:21.780,0:01:28.380
+And by using "Ctrl+D" I duplicate this line
+and this will be our "second" array.
+
+0:01:28.380,0:01:29.520
+Great.
+
+0:01:29.520,0:01:37.730
+Now we need a "for" loop to read each new
+line we have received on which we have an
+
+0:01:37.730,0:01:38.730
+array.
+
+0:01:38.730,0:01:48.430
+I already mentioned why I want these to be
+arrays of strings.
+
+0:01:48.430,0:01:54.070
+And we have to split the elements by a space.
+
+0:01:54.070,0:02:00.220
+Because this is the format in which they are
+given.
+
+0:02:00.220,0:02:01.360
+Okay.
+
+0:02:01.360,0:02:05.120
+Yes, that's right.
+
+0:02:05.120,0:02:09.209
+Now we have to do the "zig-zag" magic.
+
+0:02:09.209,0:02:16.019
+We will have to check whether the current
+"i" is odd or even.
+
+0:02:16.019,0:02:21.379
+This is how we can shuffle the elements.
+
+0:02:21.379,0:02:27.840
+Here we just have to shuffle the elements
+that we have.
+
+0:02:27.840,0:02:30.870
+If it's an even number.
+
+0:02:30.870,0:02:35.159
+Then "first" gets the 0 element.
+
+0:02:35.159,0:02:38.440
+And "second" gets the 1st element.
+
+0:02:38.440,0:02:41.599
+Otherwise, we do this vice versa.
+
+0:02:41.599,0:02:50.120
+For the "first" we have the 1st element of
+the "currentNumbers".
+
+0:02:50.120,0:02:57.069
+And for the "second" we have the element at
+position 0 of the "currentNumbers".
+
+0:02:57.069,0:03:01.659
+Okay, we are done with this.
+
+0:03:01.659,0:03:09.129
+Finally, we have to print these arrays.
+
+0:03:09.129,0:03:13.250
+I think that in the example they are joined
+by one space.
+
+0:03:13.250,0:03:16.569
+So, we join them like this.
+
+0:03:16.569,0:03:21.519
+Yes, only one space.
+
+0:03:21.519,0:03:22.760
+Okay.
+
+0:03:22.760,0:03:27.510
+And here we have the first array.
+
+0:03:27.510,0:03:32.629
+And the second array has to be printed the
+same way as the first one.
+
+0:03:32.629,0:03:36.900
+We just duplicate this line.
+
+0:03:36.900,0:03:38.889
+Now let's run the program and test it.
+
+0:03:38.889,0:03:41.549
+I will use the example we have in the description.
+
+0:03:41.549,0:03:44.540
+We have 2.
+
+0:03:44.540,0:03:48.599
+80 23.
+
+0:03:48.599,0:03:50.260
+And 31 19.
+
+0:03:50.260,0:03:53.650
+The result we have is the same as in the description.
+
+0:03:53.650,0:03:57.560
+Now I will copy and paste my solution here.
+
+0:03:57.560,0:04:03.079
+"Run" and we wait a bit.
+
+0:04:03.079,0:04:05.989
+100/100 which is great.
+
+0:04:05.989,0:04:06.909
+And we are done!

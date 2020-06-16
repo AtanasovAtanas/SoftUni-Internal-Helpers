@@ -1,0 +1,159 @@
+0:00:00.650,0:00:03.750
+Let's go on with the next problem "Top Integers".
+
+0:00:03.750,0:00:09.073
+We have to write a program to find all the
+top integers in an array.
+
+0:00:09.073,0:00:12.469
+A top integer is an integer which is bigger
+than all the elements to its right.
+
+0:00:12.469,0:00:17.099
+And we can see the example that we are given
+here.
+
+0:00:17.099,0:00:23.880
+I will copy this information and I'll paste
+it as a comment in IntelliJ.
+
+0:00:23.880,0:00:24.880
+Okay.
+
+0:00:24.880,0:00:25.880
+Like this.
+
+0:00:25.880,0:00:28.189
+We need "Scanner" because we will be reading
+from the console.
+
+0:00:28.189,0:00:33.790
+You know the syntax.
+
+0:00:33.790,0:00:40.120
+The array we are going to work with will consist
+of integers on one line separated by spaces.
+
+0:00:40.120,0:00:46.590
+So, we have "numbers" that is equal to "Arrays.stream()".
+
+0:00:46.590,0:00:51.540
+Now we read the whole line.
+
+0:00:51.540,0:00:56.510
+And we have to split the line that we have
+received by a single space.
+
+0:00:56.510,0:00:57.510
+Okay.
+
+0:00:57.510,0:01:01.440
+Let me format this a bit better.
+
+0:01:01.440,0:01:06.220
+And we have a space here.
+
+0:01:06.220,0:01:12.930
+Now what we have to do is parse the strings
+that we have received.
+
+0:01:12.930,0:01:23.280
+And we map them to integers.
+
+0:01:23.280,0:01:28.890
+Okay.
+
+0:01:28.890,0:01:32.230
+And then we convert everything to an array.
+
+0:01:32.230,0:01:33.230
+Okay, great.
+
+0:01:33.230,0:01:37.670
+Now I need a "for" loop to iterate over the
+elements of the array.
+
+0:01:37.670,0:01:42.810
+A boolean variable will help me find the top
+integer.
+
+0:01:42.810,0:01:50.630
+So, we have "boolean isTopInteger".
+
+0:01:50.630,0:01:57.640
+And at first it will be "true" and at some
+point it may change to "false".
+
+0:01:57.640,0:02:02.530
+Using a nested "for" loop I will check the
+rest of the elements.
+
+0:02:02.530,0:02:12.530
+The starting index is "i + 1" and the loop
+will iterate until the end of the array.
+
+0:02:12.530,0:02:18.599
+And if the current number is less than or
+equal to "numbers[j]".
+
+0:02:18.599,0:02:24.560
+So, the "j" index of "numbers".
+
+0:02:24.560,0:02:31.379
+Then we update "isTopInteger" to "false".
+
+0:02:31.379,0:02:35.340
+And we don't forget to break the loop because
+we don't need to look for another greater
+
+0:02:35.340,0:02:36.420
+number.
+
+0:02:36.420,0:02:42.709
+If we have found a top integer, then we have
+to print it.
+
+0:02:42.709,0:02:48.709
+So, if we have one.
+
+0:02:48.709,0:02:49.819
+Then we print it.
+
+0:02:49.819,0:02:55.099
+We need a space and we don't need this new
+line.
+
+0:02:55.099,0:02:56.099
+I think.
+
+0:02:56.099,0:02:57.099
+Yes.
+
+0:02:57.099,0:03:02.790
+So, we only need a space and this here I'll
+delete.
+
+0:03:02.790,0:03:08.849
+Let me run the program and test it with the
+example that we have.
+
+0:03:08.849,0:03:13.389
+Copy and paste.
+
+0:03:13.389,0:03:14.920
+The output seems correct.
+
+0:03:14.920,0:03:21.299
+So, I will copy and paste my solution.
+
+0:03:21.299,0:03:22.879
+Here.
+
+0:03:22.879,0:03:29.859
+Press "Run" and we wait a bit.
+
+0:03:29.859,0:03:32.599
+100/100 which is great.
+
+0:03:32.599,0:03:33.560
+And we are done!

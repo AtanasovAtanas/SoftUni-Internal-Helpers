@@ -1,0 +1,348 @@
+0:00:00.869,0:00:03.210
+Let's go on with this problem.
+
+0:00:03.210,0:00:04.430
+It's called "LadyBugs".
+
+0:00:04.430,0:00:09.900
+The description might seem a bit longer than
+the other ones, but that shouldn't worry you.
+
+0:00:09.900,0:00:15.150
+The description says we are given a field
+size and the indexes of ladybugs inside the
+
+0:00:15.150,0:00:16.150
+field.
+
+0:00:16.150,0:00:22.430
+After that on every new line until the "end"
+command is given, a ladybug changes its position
+
+0:00:22.430,0:00:26.160
+either to its left or to its right by a given
+fly length.
+
+0:00:26.160,0:00:31.780
+A command to a ladybug looks like this: "0
+right 1".
+
+0:00:31.780,0:00:38.300
+This means that the little insect placed on
+index 0 should fly one index to its right.
+
+0:00:38.300,0:00:43.579
+If the ladybug lands on a fellow ladybug,
+it continues to fly in the same direction
+
+0:00:43.579,0:00:45.399
+by the same fly length.
+
+0:00:45.399,0:00:49.460
+If the ladybug flies out of the field, it
+is gone.
+
+0:00:49.460,0:00:55.420
+For example, imagine you are given a field
+with size 3 and ladybugs on indexes 0 and
+
+0:00:55.420,0:00:56.420
+1.
+
+0:00:56.420,0:01:02.839
+If the ladybug on index 0 needs to fly to
+its right by the length of 1 (0 right 1) it
+
+0:01:02.839,0:01:08.090
+will attempt to land on index 1 but as there
+is another ladybug there it will continue
+
+0:01:08.090,0:01:12.580
+further to the right by additional length
+of 1, landing on index 2.
+
+0:01:12.580,0:01:19.870
+After that, if the same ladybug needs to fly
+to its right by the length of 1 (2 right 1),
+
+0:01:19.870,0:01:23.870
+it will land somewhere outside of the field,
+so it flies away.
+
+0:01:23.870,0:01:29.680
+If we are given ladybug index that does not
+have ladybug there, nothing happens.
+
+0:01:29.680,0:01:36.860
+If we are given ladybug index that is outside
+the field, nothing happens.
+
+0:01:36.860,0:01:41.430
+We have to write a program, simulating the
+ladybugs flying around doing nothing.
+
+0:01:41.430,0:01:46.910
+At the end, we have to print all cells in
+the field separated by blank spaces.
+
+0:01:46.910,0:01:53.670
+For each cell that has a ladybug on it print
+'1' and for each empty cells print '0'.
+
+0:01:53.670,0:01:57.810
+Here we have some more details about the input
+and output.
+
+0:01:57.810,0:02:01.070
+And we are also given an example with some
+comments.
+
+0:02:01.070,0:02:04.400
+I suggest that we start writing the code.
+
+0:02:04.400,0:02:09.240
+I will delete this because I don't need it.
+
+0:02:09.240,0:02:11.170
+"Scanner" we already know we need.
+
+0:02:11.170,0:02:14.959
+We will be expecting input from the console.
+
+0:02:14.959,0:02:18.719
+Once we have it we can read the field size.
+
+0:02:18.719,0:02:21.620
+It's a whole number.
+
+0:02:21.620,0:02:25.370
+Which means we must not forget to parse it.
+
+0:02:25.370,0:02:33.030
+Now, we have to read one line that represents
+the indices of the ladybugs.
+
+0:02:33.030,0:02:36.360
+This will be an array of integers.
+
+0:02:36.360,0:02:41.120
+First, we read the line.
+
+0:02:41.120,0:02:52.499
+Then we have to split it by a whitespace.
+
+0:02:52.499,0:02:57.069
+Then we map the elements to integers.
+
+0:02:57.069,0:03:00.409
+We know that they are initially strings.
+
+0:03:00.409,0:03:05.969
+And all this becomes an array: "toArray()".
+
+0:03:05.969,0:03:10.090
+Another array of integers for the field.
+
+0:03:10.090,0:03:18.010
+We have already received 
+the size.
+
+0:03:18.010,0:03:22.549
+What I want to do now is iterate over all
+the ladybug indices.
+
+0:03:22.549,0:03:29.689
+In order to do so I need "foreach" loop.
+
+0:03:29.689,0:03:39.879
+Now, we check if the current index that we
+have is between 0 and the last index.
+
+0:03:39.879,0:03:50.230
+Greater than or equal to 0 and less than the
+field size.
+
+0:03:50.230,0:04:01.190
+If this is true, then the element on that
+index gets updated to 1.
+
+0:04:01.190,0:04:05.799
+We are told that at some point we receive
+the command "end".
+
+0:04:05.799,0:04:11.209
+I will need a "while" loop that will break
+when we receive that command.
+
+0:04:11.209,0:04:16.000
+So, we read the line of input.
+
+0:04:16.000,0:04:23.880
+And we check whether it is equal to "end".
+
+0:04:23.880,0:04:31.129
+If so, then "break".
+
+0:04:31.129,0:04:38.610
+Otherwise, we have received some information
+about moving the ladybugs.
+
+0:04:38.610,0:04:55.740
+We split the line and we add the data inside
+an array "elements".
+
+0:04:55.740,0:04:59.430
+We need 3 variables.
+
+0:04:59.430,0:05:04.820
+First one is the start index of the ladybug,
+which is the first element in the array.
+
+0:05:04.820,0:05:11.310
+And it's a whole number.
+
+0:05:11.310,0:05:16.020
+Okay, we are done with this one.
+
+0:05:16.020,0:05:20.169
+Next on is the direction in which it is flying.
+
+0:05:20.169,0:05:28.110
+Element on index 1.
+
+0:05:28.110,0:05:31.220
+And lastly, the fly length.
+
+0:05:31.220,0:05:41.879
+Which again we have to parse because it's
+an integer.
+
+0:05:41.879,0:05:47.080
+What happens if we receive an invalid index
+or on that index there is no ladybug?
+
+0:05:47.080,0:05:55.479
+Well, nothing happens, so we have "continue".
+
+0:05:55.479,0:06:25.030
+If the index is okay, then we have to calculate
+the ladybug's next index.
+
+0:06:25.030,0:06:27.030
+We have to check the direction.
+
+0:06:27.030,0:06:39.330
+If we have "right", then we add to the start
+index the fly length.
+
+0:06:39.330,0:06:41.970
+Otherwise, we have "left".
+
+0:06:41.970,0:06:48.990
+If this is the case, then we subtract from
+the start index the length.
+
+0:06:48.990,0:07:03.350
+Here the ladybug flies from its index, so
+we have to update it to 0.
+
+0:07:03.350,0:07:10.060
+Now we have to move it, if this is possible.
+
+0:07:10.060,0:07:15.979
+If the next index is an invalid one, then
+we have to break the loop.
+
+0:07:15.979,0:07:21.960
+And our ladybug flies away.
+
+0:07:21.960,0:07:34.310
+If there is no ladybug on that index, then
+we move ours on that index.
+
+0:07:34.310,0:07:42.360
+The element on that index is now equal to
+1.
+
+0:07:42.360,0:07:49.610
+And again, we break the loop.
+
+0:07:49.610,0:07:54.710
+If the ladybug has landed on another fellow
+ladybug then it continues to fly in the same
+
+0:07:54.710,0:07:55.710
+direction.
+
+0:07:55.710,0:07:57.990
+So, if the direction is "right".
+
+0:07:57.990,0:08:01.810
+Again, we use the same fly length.
+
+0:08:01.810,0:08:10.720
+And the other case where the direction is
+"left".
+
+0:08:10.720,0:08:14.719
+And in this case we subtract from the index
+the length.
+
+0:08:14.719,0:08:18.199
+Now, what's left is to print the result.
+
+0:08:18.199,0:08:23.330
+"foreach" loop to iterate over the "field".
+
+0:08:23.330,0:08:35.310
+We know we have to print all the elements
+joined by a whitespace.
+
+0:08:35.310,0:08:38.969
+Let's run and test the solution.
+
+0:08:38.969,0:08:43.130
+In order to do so I will use the example we
+are given.
+
+0:08:43.130,0:08:47.240
+Let's find the input.
+
+0:08:47.240,0:08:48.510
+We have 3.
+
+0:08:48.510,0:08:51.200
+Next on is "0 1".
+
+0:08:51.200,0:08:54.459
+I will copy the third line.
+
+0:08:54.459,0:08:56.720
+"2 right 1".
+
+0:08:56.720,0:09:00.870
+Lastly, we have "end".
+
+0:09:00.870,0:09:05.500
+And this is the result we get.
+
+0:09:05.500,0:09:06.540
+"0 1 0".
+
+0:09:06.540,0:09:07.540
+Which seems correct.
+
+0:09:07.540,0:09:10.690
+Let me copy and paste my solution here.
+
+0:09:10.690,0:09:12.440
+Press "Run".
+
+0:09:12.440,0:09:14.680
+We wait a bit.
+
+0:09:14.680,0:09:19.940
+We got all of the points, which is great.
+
+0:09:19.940,0:09:20.989
+And we are done with this problem!

@@ -1,0 +1,1084 @@
+0:00:00.890,0:00:02.909
+Here we have a problem called "Train".
+
+0:00:02.909,0:00:07.890
+The description says we will be given a count
+of wagons in a train n.
+
+0:00:07.890,0:00:12.480
+On the next n lines we will receive how many
+people are going to get on that wagon.
+
+0:00:12.480,0:00:17.039
+At the end we have to print the whole train
+and after that the sum of the people in the
+
+0:00:17.039,0:00:18.039
+train.
+
+0:00:18.039,0:00:19.039
+Okay.
+
+0:00:19.039,0:00:20.640
+And we are also given examples.
+
+0:00:20.640,0:00:23.570
+I will use them later to test the solution.
+
+0:00:23.570,0:00:28.739
+Also, I want to copy the most essential information
+from the description.
+
+0:00:28.739,0:00:32.760
+And these will be comments in my code that
+will serve as hints.
+
+0:00:32.760,0:00:35.469
+Let's get rid of these new lines here.
+
+0:00:35.469,0:00:37.170
+Now it's much better.
+
+0:00:37.170,0:00:39.530
+Our first task is to read from the console.
+
+0:00:39.530,0:00:43.960
+But in order to be able to do so, we need
+the "Scanner".
+
+0:00:43.960,0:00:45.420
+You know the syntax.
+
+0:00:45.420,0:00:51.129
+Once we are done with this, we can read this
+whole number 'n'.
+
+0:00:51.129,0:00:56.199
+Of course, we have to parse it because it's
+a whole number.
+
+0:00:56.199,0:01:01.949
+Now it's time to create the train which will
+be an array of integers.
+
+0:01:01.949,0:01:03.750
+I'll just call it train.
+
+0:01:03.750,0:01:09.130
+And we know its length that is equal to 'n'.
+
+0:01:09.130,0:01:14.820
+We will also need a variable for the sum that
+will be printed in the end.
+
+0:01:14.820,0:01:17.950
+And at first it will be equal to 0.
+
+0:01:17.950,0:01:23.940
+What we have to do now is fill the train with
+passengers that we receive from the console.
+
+0:01:23.940,0:01:28.180
+And we are done with this.
+
+0:01:28.180,0:01:32.330
+We don't forget to parse them because we know
+that they are whole numbers.
+
+0:01:32.330,0:01:41.810
+Next on, we need another "for" loop to iterate
+over the elements of the array.
+
+0:01:41.810,0:01:48.860
+Every integer from the "train" array will
+be added to the total sum.
+
+0:01:48.860,0:01:54.000
+And also every element will be printed.
+
+0:01:54.000,0:01:59.960
+And we know we have an empty space right after
+it.
+
+0:01:59.960,0:02:03.310
+So, we don't forget this.
+
+0:02:03.310,0:02:07.540
+I don't think we need this new line here.
+
+0:02:07.540,0:02:09.489
+Let me check the description again.
+
+0:02:09.489,0:02:11.920
+Yes, we don't need the new line.
+
+0:02:11.920,0:02:14.709
+So, I remove it.
+
+0:02:14.709,0:02:18.160
+Finally, we have to print the sum we have
+calculated.
+
+0:02:18.160,0:02:22.349
+But before we do this, we need a new line.
+
+0:02:22.349,0:02:23.349
+Okay, we are done.
+
+0:02:23.349,0:02:25.430
+Let's run the program now.
+
+0:02:25.430,0:02:29.420
+I want to test the solution with the example
+we have in the description.
+
+0:02:29.420,0:02:34.120
+Let me check it again.
+
+0:02:34.120,0:02:39.780
+Okay, we have 3, 13, 24 and 8.
+
+0:02:39.780,0:02:44.280
+The result we have is "13 24 8" and "45".
+
+0:02:44.280,0:02:45.709
+Seems correct.
+
+0:02:45.709,0:02:51.250
+Now I'll copy and paste my solution here so
+that I can test it with more cases.
+
+0:02:51.250,0:02:54.350
+We press "Run".
+
+0:02:54.350,0:02:56.930
+And...
+
+0:02:56.930,0:02:58.210
+We got all of the points.
+
+0:02:58.210,0:03:00.260
+Which means we are done with this problem.
+
+0:03:02.510,0:03:04.280
+Let's see this problem here.
+
+0:03:04.280,0:03:05.340
+It's called "Zig-Zag".
+
+0:03:05.340,0:03:09.170
+The description says we have to write a program
+which creates 2 arrays.
+
+0:03:09.170,0:03:11.470
+We will be given an integer n.
+
+0:03:11.470,0:03:14.060
+On the next n lines we get 2 integers.
+
+0:03:14.060,0:03:18.420
+And we have to form 2 arrays as shown below.
+
+0:03:18.420,0:03:21.470
+Here in the examples we can see what's expected.
+
+0:03:21.470,0:03:23.090
+We have 80 here.
+
+0:03:23.090,0:03:24.920
+And 80 here again.
+
+0:03:24.920,0:03:27.650
+19 here and there.
+
+0:03:27.650,0:03:32.119
+23 up here and 23 down here.
+
+0:03:32.119,0:03:34.369
+And 31.
+
+0:03:34.369,0:03:38.860
+I'll copy this information that will serve
+as hints.
+
+0:03:38.860,0:03:40.789
+Okay, we paste.
+
+0:03:40.789,0:03:44.659
+Let me delete this new here.
+
+0:03:44.659,0:03:49.370
+We will be receiving input that we have to
+read so we need "Scanner".
+
+0:03:49.370,0:03:50.909
+You know the syntax.
+
+0:03:50.909,0:03:53.879
+And the first thing we read is the "length".
+
+0:03:53.879,0:04:00.209
+It is a whole number so we have to parse it.
+
+0:04:00.209,0:04:03.749
+Okay.
+
+0:04:03.749,0:04:05.549
+We need two arrays.
+
+0:04:05.549,0:04:10.370
+And we are not going to do any calculations
+with the elements.
+
+0:04:10.370,0:04:13.390
+This is why the elements can be Strings and
+not integers.
+
+0:04:13.390,0:04:22.510
+So, we create the "first" array.
+
+0:04:22.510,0:04:23.780
+Okay.
+
+0:04:23.780,0:04:30.380
+And by using "Ctrl+D" I duplicate this line
+and this will be our "second" array.
+
+0:04:30.380,0:04:31.520
+Great.
+
+0:04:31.520,0:04:39.730
+Now we need a "for" loop to read each new
+line we have received on which we have an
+
+0:04:39.730,0:04:40.730
+array.
+
+0:04:40.730,0:04:50.430
+I already mentioned why I want these to be
+arrays of strings.
+
+0:04:50.430,0:04:56.070
+And we have to split the elements by a space.
+
+0:04:56.070,0:05:02.220
+Because this is the format in which they are
+given.
+
+0:05:02.220,0:05:03.360
+Okay.
+
+0:05:03.360,0:05:07.120
+Yes, that's right.
+
+0:05:07.120,0:05:11.209
+Now we have to do the "zig-zag" magic.
+
+0:05:11.209,0:05:18.019
+We will have to check whether the current
+"i" is odd or even.
+
+0:05:18.019,0:05:23.379
+This is how we can shuffle the elements.
+
+0:05:23.379,0:05:29.840
+Here we just have to shuffle the elements
+that we have.
+
+0:05:29.840,0:05:32.870
+If it's an even number.
+
+0:05:32.870,0:05:37.159
+Then "first" gets the 0 element.
+
+0:05:37.159,0:05:40.440
+And "second" gets the 1st element.
+
+0:05:40.440,0:05:43.599
+Otherwise, we do this vice versa.
+
+0:05:43.599,0:05:52.120
+For the "first" we have the 1st element of
+the "currentNumbers".
+
+0:05:52.120,0:05:59.069
+And for the "second" we have the element at
+position 0 of the "currentNumbers".
+
+0:05:59.069,0:06:03.659
+Okay, we are done with this.
+
+0:06:03.659,0:06:11.129
+Finally, we have to print these arrays.
+
+0:06:11.129,0:06:15.250
+I think that in the example they are joined
+by one space.
+
+0:06:15.250,0:06:18.569
+So, we join them like this.
+
+0:06:18.569,0:06:23.519
+Yes, only one space.
+
+0:06:23.519,0:06:24.760
+Okay.
+
+0:06:24.760,0:06:29.510
+And here we have the first array.
+
+0:06:29.510,0:06:34.629
+And the second array has to be printed the
+same way as the first one.
+
+0:06:34.629,0:06:38.900
+We just duplicate this line.
+
+0:06:38.900,0:06:40.889
+Now let's run the program and test it.
+
+0:06:40.889,0:06:43.549
+I will use the example we have in the description.
+
+0:06:43.549,0:06:46.540
+We have 2.
+
+0:06:46.540,0:06:50.599
+80 23.
+
+0:06:50.599,0:06:52.260
+And 31 19.
+
+0:06:52.260,0:06:55.650
+The result we have is the same as in the description.
+
+0:06:55.650,0:06:59.560
+Now I will copy and paste my solution here.
+
+0:06:59.560,0:07:05.079
+"Run" and we wait a bit.
+
+0:07:05.079,0:07:07.989
+100/100 which is great.
+
+0:07:07.989,0:07:08.909
+And we are done!
+
+0:07:12.650,0:07:15.750
+Let's go on with the next problem "Top Integers".
+
+0:07:15.750,0:07:21.073
+We have to write a program to find all the
+top integers in an array.
+
+0:07:21.073,0:07:24.469
+A top integer is an integer which is bigger
+than all the elements to its right.
+
+0:07:24.469,0:07:29.099
+And we can see the example that we are given
+here.
+
+0:07:29.099,0:07:35.880
+I will copy this information and I'll paste
+it as a comment in IntelliJ.
+
+0:07:35.880,0:07:36.880
+Okay.
+
+0:07:36.880,0:07:37.880
+Like this.
+
+0:07:37.880,0:07:40.189
+We need "Scanner" because we will be reading
+from the console.
+
+0:07:40.189,0:07:45.790
+You know the syntax.
+
+0:07:45.790,0:07:52.120
+The array we are going to work with will consist
+of integers on one line separated by spaces.
+
+0:07:52.120,0:07:58.590
+So, we have "numbers" that is equal to "Arrays.stream()".
+
+0:07:58.590,0:08:03.540
+Now we read the whole line.
+
+0:08:03.540,0:08:08.510
+And we have to split the line that we have
+received by a single space.
+
+0:08:08.510,0:08:09.510
+Okay.
+
+0:08:09.510,0:08:13.440
+Let me format this a bit better.
+
+0:08:13.440,0:08:18.220
+And we have a space here.
+
+0:08:18.220,0:08:24.930
+Now what we have to do is parse the strings
+that we have received.
+
+0:08:24.930,0:08:35.280
+And we map them to integers.
+
+0:08:35.280,0:08:40.890
+Okay.
+
+0:08:40.890,0:08:44.230
+And then we convert everything to an array.
+
+0:08:44.230,0:08:45.230
+Okay, great.
+
+0:08:45.230,0:08:49.670
+Now I need a "for" loop to iterate over the
+elements of the array.
+
+0:08:49.670,0:08:54.810
+A boolean variable will help me find the top
+integer.
+
+0:08:54.810,0:09:02.630
+So, we have "boolean isTopInteger".
+
+0:09:02.630,0:09:09.640
+And at first it will be "true" and at some
+point it may change to "false".
+
+0:09:09.640,0:09:14.530
+Using a nested "for" loop I will check the
+rest of the elements.
+
+0:09:14.530,0:09:24.530
+The starting index is "i + 1" and the loop
+will iterate until the end of the array.
+
+0:09:24.530,0:09:30.599
+And if the current number is less than or
+equal to "numbers[j]".
+
+0:09:30.599,0:09:36.560
+So, the "j" index of "numbers".
+
+0:09:36.560,0:09:43.379
+Then we update "isTopInteger" to "false".
+
+0:09:43.379,0:09:47.340
+And we don't forget to break the loop because
+we don't need to look for another greater
+
+0:09:47.340,0:09:48.420
+number.
+
+0:09:48.420,0:09:54.709
+If we have found a top integer, then we have
+to print it.
+
+0:09:54.709,0:10:00.709
+So, if we have one.
+
+0:10:00.709,0:10:01.819
+Then we print it.
+
+0:10:01.819,0:10:07.099
+We need a space and we don't need this new
+line.
+
+0:10:07.099,0:10:08.099
+I think.
+
+0:10:08.099,0:10:09.099
+Yes.
+
+0:10:09.099,0:10:14.790
+So, we only need a space and this here I'll
+delete.
+
+0:10:14.790,0:10:20.849
+Let me run the program and test it with the
+example that we have.
+
+0:10:20.849,0:10:25.389
+Copy and paste.
+
+0:10:25.389,0:10:26.920
+The output seems correct.
+
+0:10:26.920,0:10:33.299
+So, I will copy and paste my solution.
+
+0:10:33.299,0:10:34.879
+Here.
+
+0:10:34.879,0:10:41.859
+Press "Run" and we wait a bit.
+
+0:10:41.859,0:10:44.599
+100/100 which is great.
+
+0:10:44.599,0:10:45.560
+And we are done!
+
+0:10:47.480,0:10:51.620
+The next problem that we have is called "Max
+Sequence of Equal Elements".
+
+0:10:51.620,0:10:56.480
+We have to write a program that finds the
+longest sequence of equal elements in an array
+
+0:10:56.480,0:10:57.480
+of integers.
+
+0:10:57.480,0:11:02.639
+If several longest sequences exist, then we
+have to print the leftmost one.
+
+0:11:02.639,0:11:06.070
+Here we can see examples that we are given.
+
+0:11:06.070,0:11:12.539
+We can see here that the longest and leftmost
+one is "1 1".
+
+0:11:12.539,0:11:14.900
+And here it's obvious.
+
+0:11:14.900,0:11:20.850
+I will copy this infomation and I will paste
+it as comments in IntelliJ.
+
+0:11:20.850,0:11:21.949
+We paste.
+
+0:11:21.949,0:11:25.309
+Let me format this a bit better.
+
+0:11:25.309,0:11:26.309
+Okay.
+
+0:11:26.309,0:11:29.969
+As always, we need "Scanner" because we will
+be reading from the console.
+
+0:11:29.969,0:11:31.440
+You know the syntax.
+
+0:11:31.440,0:11:33.660
+And we are done.
+
+0:11:33.660,0:11:43.600
+We are told that the input is one line of
+numbers.
+
+0:11:43.600,0:11:49.520
+We have "array".
+
+0:11:49.520,0:11:50.520
+And we read the line.
+
+0:11:50.520,0:11:55.290
+And we don't forget to split the numbers.
+
+0:11:55.290,0:12:02.570
+We have to parse them because they are integers.
+
+0:12:02.570,0:12:11.610
+In the end we know we have to convert everything
+to an array.
+
+0:12:11.610,0:12:23.841
+Now that we are ready with this we need two
+variables to represent the "endIndex" and
+
+0:12:23.841,0:12:24.841
+"maxLength".
+
+0:12:24.841,0:12:26.380
+They will be equal to 0.
+
+0:12:26.380,0:12:31.810
+And the other one will be equal to 1 at first.
+
+0:12:31.810,0:12:39.640
+We also need a counter to keep track of the
+current sequence.
+
+0:12:39.640,0:12:42.290
+This will be equal to 1 as well.
+
+0:12:42.290,0:12:45.930
+Using a "for" loop we will iterate over the
+elements of the array.
+
+0:12:45.930,0:12:48.060
+This goes until the last element.
+
+0:12:48.060,0:12:53.320
+So, we use the length of the array.
+
+0:12:53.320,0:13:02.519
+And we have to check whether the current element
+and the one after it are the same.
+
+0:13:02.519,0:13:07.340
+If they are, then we have to update the counter.
+
+0:13:07.340,0:13:14.740
+Because we have found an element that is the
+same.
+
+0:13:14.740,0:13:17.770
+So, we increment the counter.
+
+0:13:17.770,0:13:24.069
+Otherwise it will go back to 1.
+
+0:13:24.069,0:13:27.780
+Okay.
+
+0:13:27.780,0:13:29.720
+This is its initial value.
+
+0:13:29.720,0:13:33.050
+Now we have to see whether "counter".
+
+0:13:33.050,0:13:39.379
+So, the current value of "counter" is greater
+than the "maxLength" that we have.
+
+0:13:39.379,0:13:45.389
+If so, we have to change the value of "maxLength"
+to the one of "counter".
+
+0:13:45.389,0:13:52.450
+And we have to increment the "endIndex".
+
+0:13:52.450,0:13:54.390
+Okay.
+
+0:13:54.390,0:13:59.590
+Now we need another "for" loop to print the
+sequence.
+
+0:13:59.590,0:14:05.700
+We have to start from the "(endIndex - maxLength)
++ 1".
+
+0:14:05.700,0:14:19.330
+And the loop iterates until "endIndex + 1".
+
+0:14:19.330,0:14:26.159
+And we have to print the element that we have.
+
+0:14:26.159,0:14:31.400
+With a space after it.
+
+0:14:31.400,0:14:34.549
+The current element.
+
+0:14:34.549,0:14:44.120
+And a space.
+
+0:14:44.120,0:14:46.099
+We don't need a new line here.
+
+0:14:46.099,0:14:48.739
+I think that we are done with the solution.
+
+0:14:48.739,0:14:54.909
+So, let's run the program and test it.
+
+0:14:54.909,0:15:04.030
+I will use the example we are given.
+
+0:15:04.030,0:15:07.510
+Let me just copy the input and paste it in
+the console.
+
+0:15:07.510,0:15:09.380
+The result it "1 1".
+
+0:15:09.380,0:15:10.380
+Which is correct.
+
+0:15:10.380,0:15:13.460
+Let me copy the next example.
+
+0:15:13.460,0:15:18.250
+We use it to test again.
+
+0:15:18.250,0:15:19.850
+Again, correct.
+
+0:15:19.850,0:15:24.180
+Now I will copy my code.
+
+0:15:24.180,0:15:30.600
+And I will paste it here.
+
+0:15:30.600,0:15:32.750
+Press "Run".
+
+0:15:32.750,0:15:33.750
+We have to wait a bit.
+
+0:15:33.750,0:15:36.010
+We got all of the points.
+
+0:15:36.010,0:15:37.640
+So, we are done!
+
+0:15:38.869,0:15:41.210
+Let's go on with this problem.
+
+0:15:41.210,0:15:42.430
+It's called "LadyBugs".
+
+0:15:42.430,0:15:47.900
+The description might seem a bit longer than
+the other ones, but that shouldn't worry you.
+
+0:15:47.900,0:15:53.150
+The description says we are given a field
+size and the indexes of ladybugs inside the
+
+0:15:53.150,0:15:54.150
+field.
+
+0:15:54.150,0:16:00.430
+After that on every new line until the "end"
+command is given, a ladybug changes its position
+
+0:16:00.430,0:16:04.160
+either to its left or to its right by a given
+fly length.
+
+0:16:04.160,0:16:09.780
+A command to a ladybug looks like this: "0
+right 1".
+
+0:16:09.780,0:16:16.300
+This means that the little insect placed on
+index 0 should fly one index to its right.
+
+0:16:16.300,0:16:21.579
+If the ladybug lands on a fellow ladybug,
+it continues to fly in the same direction
+
+0:16:21.579,0:16:23.399
+by the same fly length.
+
+0:16:23.399,0:16:27.460
+If the ladybug flies out of the field, it
+is gone.
+
+0:16:27.460,0:16:33.420
+For example, imagine you are given a field
+with size 3 and ladybugs on indexes 0 and
+
+0:16:33.420,0:16:34.420
+1.
+
+0:16:34.420,0:16:40.839
+If the ladybug on index 0 needs to fly to
+its right by the length of 1 (0 right 1) it
+
+0:16:40.839,0:16:46.090
+will attempt to land on index 1 but as there
+is another ladybug there it will continue
+
+0:16:46.090,0:16:50.580
+further to the right by additional length
+of 1, landing on index 2.
+
+0:16:50.580,0:16:57.870
+After that, if the same ladybug needs to fly
+to its right by the length of 1 (2 right 1),
+
+0:16:57.870,0:17:01.870
+it will land somewhere outside of the field,
+so it flies away.
+
+0:17:01.870,0:17:07.680
+If we are given ladybug index that does not
+have ladybug there, nothing happens.
+
+0:17:07.680,0:17:14.860
+If we are given ladybug index that is outside
+the field, nothing happens.
+
+0:17:14.860,0:17:19.430
+We have to write a program, simulating the
+ladybugs flying around doing nothing.
+
+0:17:19.430,0:17:24.910
+At the end, we have to print all cells in
+the field separated by blank spaces.
+
+0:17:24.910,0:17:31.670
+For each cell that has a ladybug on it print
+'1' and for each empty cells print '0'.
+
+0:17:31.670,0:17:35.810
+Here we have some more details about the input
+and output.
+
+0:17:35.810,0:17:39.070
+And we are also given an example with some
+comments.
+
+0:17:39.070,0:17:42.400
+I suggest that we start writing the code.
+
+0:17:42.400,0:17:47.240
+I will delete this because I don't need it.
+
+0:17:47.240,0:17:49.170
+"Scanner" we already know we need.
+
+0:17:49.170,0:17:52.959
+We will be expecting input from the console.
+
+0:17:52.959,0:17:56.719
+Once we have it we can read the field size.
+
+0:17:56.719,0:17:59.620
+It's a whole number.
+
+0:17:59.620,0:18:03.370
+Which means we must not forget to parse it.
+
+0:18:03.370,0:18:11.030
+Now, we have to read one line that represents
+the indices of the ladybugs.
+
+0:18:11.030,0:18:14.360
+This will be an array of integers.
+
+0:18:14.360,0:18:19.120
+First, we read the line.
+
+0:18:19.120,0:18:30.499
+Then we have to split it by a whitespace.
+
+0:18:30.499,0:18:35.069
+Then we map the elements to integers.
+
+0:18:35.069,0:18:38.409
+We know that they are initially strings.
+
+0:18:38.409,0:18:43.969
+And all this becomes an array: "toArray()".
+
+0:18:43.969,0:18:48.090
+Another array of integers for the field.
+
+0:18:48.090,0:18:56.010
+We have already received 
+the size.
+
+0:18:56.010,0:19:00.549
+What I want to do now is iterate over all
+the ladybug indices.
+
+0:19:00.549,0:19:07.689
+In order to do so I need "foreach" loop.
+
+0:19:07.689,0:19:17.879
+Now, we check if the current index that we
+have is between 0 and the last index.
+
+0:19:17.879,0:19:28.230
+Greater than or equal to 0 and less than the
+field size.
+
+0:19:28.230,0:19:39.190
+If this is true, then the element on that
+index gets updated to 1.
+
+0:19:39.190,0:19:43.799
+We are told that at some point we receive
+the command "end".
+
+0:19:43.799,0:19:49.209
+I will need a "while" loop that will break
+when we receive that command.
+
+0:19:49.209,0:19:54.000
+So, we read the line of input.
+
+0:19:54.000,0:20:01.880
+And we check whether it is equal to "end".
+
+0:20:01.880,0:20:09.129
+If so, then "break".
+
+0:20:09.129,0:20:16.610
+Otherwise, we have received some information
+about moving the ladybugs.
+
+0:20:16.610,0:20:33.740
+We split the line and we add the data inside
+an array "elements".
+
+0:20:33.740,0:20:37.430
+We need 3 variables.
+
+0:20:37.430,0:20:42.820
+First one is the start index of the ladybug,
+which is the first element in the array.
+
+0:20:42.820,0:20:49.310
+And it's a whole number.
+
+0:20:49.310,0:20:54.020
+Okay, we are done with this one.
+
+0:20:54.020,0:20:58.169
+Next on is the direction in which it is flying.
+
+0:20:58.169,0:21:06.110
+Element on index 1.
+
+0:21:06.110,0:21:09.220
+And lastly, the fly length.
+
+0:21:09.220,0:21:19.879
+Which again we have to parse because it's
+an integer.
+
+0:21:19.879,0:21:25.080
+What happens if we receive an invalid index
+or on that index there is no ladybug?
+
+0:21:25.080,0:21:33.479
+Well, nothing happens, so we have "continue".
+
+0:21:33.479,0:22:03.030
+If the index is okay, then we have to calculate
+the ladybug's next index.
+
+0:22:03.030,0:22:05.030
+We have to check the direction.
+
+0:22:05.030,0:22:17.330
+If we have "right", then we add to the start
+index the fly length.
+
+0:22:17.330,0:22:19.970
+Otherwise, we have "left".
+
+0:22:19.970,0:22:26.990
+If this is the case, then we subtract from
+the start index the length.
+
+0:22:26.990,0:22:41.350
+Here the ladybug flies from its index, so
+we have to update it to 0.
+
+0:22:41.350,0:22:48.060
+Now we have to move it, if this is possible.
+
+0:22:48.060,0:22:53.979
+If the next index is an invalid one, then
+we have to break the loop.
+
+0:22:53.979,0:22:59.960
+And our ladybug flies away.
+
+0:22:59.960,0:23:12.310
+If there is no ladybug on that index, then
+we move ours on that index.
+
+0:23:12.310,0:23:20.360
+The element on that index is now equal to
+1.
+
+0:23:20.360,0:23:27.610
+And again, we break the loop.
+
+0:23:27.610,0:23:32.710
+If the ladybug has landed on another fellow
+ladybug then it continues to fly in the same
+
+0:23:32.710,0:23:33.710
+direction.
+
+0:23:33.710,0:23:35.990
+So, if the direction is "right".
+
+0:23:35.990,0:23:39.810
+Again, we use the same fly length.
+
+0:23:39.810,0:23:48.720
+And the other case where the direction is
+"left".
+
+0:23:48.720,0:23:52.719
+And in this case we subtract from the index
+the length.
+
+0:23:52.719,0:23:56.199
+Now, what's left is to print the result.
+
+0:23:56.199,0:24:01.330
+"foreach" loop to iterate over the "field".
+
+0:24:01.330,0:24:13.310
+We know we have to print all the elements
+joined by a whitespace.
+
+0:24:13.310,0:24:16.969
+Let's run and test the solution.
+
+0:24:16.969,0:24:21.130
+In order to do so I will use the example we
+are given.
+
+0:24:21.130,0:24:25.240
+Let's find the input.
+
+0:24:25.240,0:24:26.510
+We have 3.
+
+0:24:26.510,0:24:29.200
+Next on is "0 1".
+
+0:24:29.200,0:24:32.459
+I will copy the third line.
+
+0:24:32.459,0:24:34.720
+"2 right 1".
+
+0:24:34.720,0:24:38.870
+Lastly, we have "end".
+
+0:24:38.870,0:24:43.500
+And this is the result we get.
+
+0:24:43.500,0:24:44.540
+"0 1 0".
+
+0:24:44.540,0:24:45.540
+Which seems correct.
+
+0:24:45.540,0:24:48.690
+Let me copy and paste my solution here.
+
+0:24:48.690,0:24:50.440
+Press "Run".
+
+0:24:50.440,0:24:52.680
+We wait a bit.
+
+0:24:52.680,0:24:57.940
+We got all of the points, which is great.
+
+0:24:57.940,0:24:58.989
+And we are done with this problem!

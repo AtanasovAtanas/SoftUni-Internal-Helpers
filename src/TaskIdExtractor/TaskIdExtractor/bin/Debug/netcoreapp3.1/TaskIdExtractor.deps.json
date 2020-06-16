@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TaskIdExtractor/1.0.0": {
+        "runtime": {
+          "TaskIdExtractor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskIdExtractor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

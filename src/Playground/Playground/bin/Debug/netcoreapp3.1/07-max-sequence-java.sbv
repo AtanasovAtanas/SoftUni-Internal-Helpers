@@ -1,0 +1,209 @@
+0:00:00.480,0:00:04.620
+The next problem that we have is called "Max
+Sequence of Equal Elements".
+
+0:00:04.620,0:00:09.480
+We have to write a program that finds the
+longest sequence of equal elements in an array
+
+0:00:09.480,0:00:10.480
+of integers.
+
+0:00:10.480,0:00:15.639
+If several longest sequences exist, then we
+have to print the leftmost one.
+
+0:00:15.639,0:00:19.070
+Here we can see examples that we are given.
+
+0:00:19.070,0:00:25.539
+We can see here that the longest and leftmost
+one is "1 1".
+
+0:00:25.539,0:00:27.900
+And here it's obvious.
+
+0:00:27.900,0:00:33.850
+I will copy this infomation and I will paste
+it as comments in IntelliJ.
+
+0:00:33.850,0:00:34.949
+We paste.
+
+0:00:34.949,0:00:38.309
+Let me format this a bit better.
+
+0:00:38.309,0:00:39.309
+Okay.
+
+0:00:39.309,0:00:42.969
+As always, we need "Scanner" because we will
+be reading from the console.
+
+0:00:42.969,0:00:44.440
+You know the syntax.
+
+0:00:44.440,0:00:46.660
+And we are done.
+
+0:00:46.660,0:00:56.600
+We are told that the input is one line of
+numbers.
+
+0:00:56.600,0:01:02.520
+We have "array".
+
+0:01:02.520,0:01:03.520
+And we read the line.
+
+0:01:03.520,0:01:08.290
+And we don't forget to split the numbers.
+
+0:01:08.290,0:01:15.570
+We have to parse them because they are integers.
+
+0:01:15.570,0:01:24.610
+In the end we know we have to convert everything
+to an array.
+
+0:01:24.610,0:01:36.841
+Now that we are ready with this we need two
+variables to represent the "endIndex" and
+
+0:01:36.841,0:01:37.841
+"maxLength".
+
+0:01:37.841,0:01:39.380
+They will be equal to 0.
+
+0:01:39.380,0:01:44.810
+And the other one will be equal to 1 at first.
+
+0:01:44.810,0:01:52.640
+We also need a counter to keep track of the
+current sequence.
+
+0:01:52.640,0:01:55.290
+This will be equal to 1 as well.
+
+0:01:55.290,0:01:58.930
+Using a "for" loop we will iterate over the
+elements of the array.
+
+0:01:58.930,0:02:01.060
+This goes until the last element.
+
+0:02:01.060,0:02:06.320
+So, we use the length of the array.
+
+0:02:06.320,0:02:15.519
+And we have to check whether the current element
+and the one after it are the same.
+
+0:02:15.519,0:02:20.340
+If they are, then we have to update the counter.
+
+0:02:20.340,0:02:27.740
+Because we have found an element that is the
+same.
+
+0:02:27.740,0:02:30.770
+So, we increment the counter.
+
+0:02:30.770,0:02:37.069
+Otherwise it will go back to 1.
+
+0:02:37.069,0:02:40.780
+Okay.
+
+0:02:40.780,0:02:42.720
+This is its initial value.
+
+0:02:42.720,0:02:46.050
+Now we have to see whether "counter".
+
+0:02:46.050,0:02:52.379
+So, the current value of "counter" is greater
+than the "maxLength" that we have.
+
+0:02:52.379,0:02:58.389
+If so, we have to change the value of "maxLength"
+to the one of "counter".
+
+0:02:58.389,0:03:05.450
+And we have to increment the "endIndex".
+
+0:03:05.450,0:03:07.390
+Okay.
+
+0:03:07.390,0:03:12.590
+Now we need another "for" loop to print the
+sequence.
+
+0:03:12.590,0:03:18.700
+We have to start from the "(endIndex - maxLength)
++ 1".
+
+0:03:18.700,0:03:32.330
+And the loop iterates until "endIndex + 1".
+
+0:03:32.330,0:03:39.159
+And we have to print the element that we have.
+
+0:03:39.159,0:03:44.400
+With a space after it.
+
+0:03:44.400,0:03:47.549
+The current element.
+
+0:03:47.549,0:03:57.120
+And a space.
+
+0:03:57.120,0:03:59.099
+We don't need a new line here.
+
+0:03:59.099,0:04:01.739
+I think that we are done with the solution.
+
+0:04:01.739,0:04:07.909
+So, let's run the program and test it.
+
+0:04:07.909,0:04:17.030
+I will use the example we are given.
+
+0:04:17.030,0:04:20.510
+Let me just copy the input and paste it in
+the console.
+
+0:04:20.510,0:04:22.380
+The result it "1 1".
+
+0:04:22.380,0:04:23.380
+Which is correct.
+
+0:04:23.380,0:04:26.460
+Let me copy the next example.
+
+0:04:26.460,0:04:31.250
+We use it to test again.
+
+0:04:31.250,0:04:32.850
+Again, correct.
+
+0:04:32.850,0:04:37.180
+Now I will copy my code.
+
+0:04:37.180,0:04:43.600
+And I will paste it here.
+
+0:04:43.600,0:04:45.750
+Press "Run".
+
+0:04:45.750,0:04:46.750
+We have to wait a bit.
+
+0:04:46.750,0:04:49.010
+We got all of the points.
+
+0:04:49.010,0:04:50.640
+So, we are done!
